@@ -1,0 +1,195 @@
+body{
+    font-family: 'VT323', monospace;
+    padding-top: 30px;
+    padding-bottom : 30px;
+    background: linear-gradient(45deg, #255e79, white);
+}
+
+img#mascot{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+#logo{
+    width : 200px;
+    height: auto;
+}
+
+#title_game{
+    color: white;
+}
+
+hr{
+    border: 5px solid white;
+    border-radius: 2px;
+}
+
+#canvas{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow:inset 0px 0px 40px 20px rgba(0, 0, 0, 0.4);
+}
+
+footer{
+    color: white;
+}
+
+div#canvas img{
+    display: flex;
+    margin : auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#about_btn{
+    margin-top: 5rem;
+    background-color: #D3E7EE;
+    color: black;
+    border: 0;
+    border-radius: 20px;
+    font-size: 40px;
+    padding: 1rem 4rem;
+}
+
+#developer{
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+#developer h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#about_btn:hover{
+    box-shadow: 4px 4px 20px #ECD59F;
+}
+
+#start_btn{
+    margin-top: 5rem;
+    background-color: #fabd2f;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    font-size: 40px;
+    padding: 1rem 4rem;
+}
+
+#start_btn:hover{
+    box-shadow: 4px 4px 20px #D3E3EE;
+}
+
+#start_game{
+    margin-top: 1rem;
+    background-color: #fabd2f;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    font-size: 40px;
+    padding: 1rem 4rem;
+}
+
+#start_game:hover{
+    box-shadow: 8px 4px 20px #D3E3EE;
+}
+
+div#content img{
+    z-index: -1;
+}
+
+div#content{
+    box-shadow: 20px 0px 40px 20px rgba(0, 0, 0, 0.4);
+}
+
+span#salam{
+    display: block;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgb(251, 0, 84);
+    border-radius: 10px;
+    font-size: 30px;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#clock {
+    border-radius: 100%;
+    background-image: url("img/jam.png");
+    background-size: 100% 100%;
+    font-family: "Montserrat";
+    border: 5px solid black;
+    box-shadow: inset 2px 3px 8px 0 rgba(0, 0, 0, 0.1);
+    width: 10rem;
+    height: 10rem;
+    background-color: white;
+    margin : 30px auto;
+  }
+  
+  .wrap {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+  }
+  
+  .min,
+  .hour {
+    position: absolute;
+    height: 30%;
+    width: 6px;
+    margin: auto;
+    top: -30%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: black;
+    transform-origin: bottom center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+    z-index: 1;
+  }
+  
+  .min {
+    position: absolute;
+    height: 100%;
+    width: 3px;
+    top: -100%;
+    left: 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+  }
+  
+  .dot {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 100px;
+    background: white;
+    border: 2px solid #1b1b1b;
+    border-radius: 100%;
+    margin: auto;
+    z-index: 1;
+  }
+
+#content{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dark-blue{
+    background-color: #0e387a;
+    border: none;
+    height: 150%;
+    width: 80%;
+}
+
+.font-big{
+    font-size: 28px;
+}
